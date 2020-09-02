@@ -1,6 +1,6 @@
-# REST proxy service with websocket frontend
+# REST proxy service with dashboard
 
-A monorepo containing a REST proxy server (express js) and a Frontend (next js) designed for auditing api calls.
+A monorepo containing a REST proxy server (Express.js) and a Frontend (Next.js) designed for auditing api calls.
 
 ### Tech Stack
 
@@ -21,7 +21,7 @@ npm install
 
 _Run both apps_
 
-```dev
+```bash
 npm run start
 ```
 
