@@ -1,0 +1,13 @@
+:root {
+  --some-color: red;
+}
+
+body {
+  /* font-family: 'Spartan'; */
+  /* font-family: "Montserrat"; */
+  font-family: "PT Sans";
+  margin: 0;
+  padding: 0;
+  background: #fdfefc;
+  min-height: 100vh;
+}
