@@ -107,8 +107,8 @@ const Table = ({ calls = [] }) => {
       <tbody>
         {calls.map((call, i) => (
           <tr key={i}>
-            <td data-label="destination">{call}</td>
-            <td data-label="responseTime">sometime</td>
+            <td data-label="destination">{call.url}</td>
+            <td data-label="responseTime">{call.resTime} ms</td>
           </tr>
         ))}
       </tbody>

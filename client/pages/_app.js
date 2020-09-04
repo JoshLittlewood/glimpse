@@ -35,6 +35,7 @@ export default class MyApp extends App {
             href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Spartan&display=swap"
             rel="stylesheet"
           />
+          <title>🔍 Glimpse Dashboard</title>
         </Head>
 
         <Nav />

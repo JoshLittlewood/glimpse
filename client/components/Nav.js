@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import LogoIcon from '../public/Logo.svg'
+
 
 const Background = styled.nav`
   background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
@@ -10,10 +12,10 @@ const Background = styled.nav`
   align-items: center;
 `;
 
-const Logo = styled.div`
+const Logo = styled(LogoIcon)`
   height: 30px;
   width: 80px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 `;
 
 const Nav = () => {
